@@ -1,7 +1,7 @@
 ﻿using HarmonyLib;
 using UnityEngine;
 
-namespace EveryonesLooking
+namespace EveryonesLooking.Patch
 {
     [HarmonyPatch(typeof(VRRig), "LateUpdate")]
     public class VRRigPatch
