@@ -2,7 +2,7 @@
 using BepInEx;
 using HarmonyLib;
 
-namespace HeadInHand
+namespace EveryonesLooking
 {
     // I added the description thing so it is compatible with luna's haunted tweaks (FIX FOR THAT ON MY GITHUB)
     [Description("HauntedModMenu")]
