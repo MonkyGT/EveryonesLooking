@@ -17,12 +17,12 @@ namespace EveryonesLooking
         
         void OnDisable()
         {
-            VRRigPatch.enabled=false;
+            Patch.VRRigPatch.enabled=false;
         }
 
         void OnEnable()
         {
-            VRRigPatch.enabled=true;
+            Patch.VRRigPatch.enabled=true;
         }
     }
 }
